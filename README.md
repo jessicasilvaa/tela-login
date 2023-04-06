@@ -1,2 +1,2 @@
 # tela-login
-Tela de login ainda incompleta
+Tela de login ainda em desenvolvimento 
