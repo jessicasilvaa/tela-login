@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="img-login">
+        <img src="imagens/team_up.svg" alt="team up"/>
+      </section>
+      <section class="login">
+        <div class="formulario">
+          <div class="content">
+            <h1>Seja bem-vindo(a)</h1>
+            <p>Faça o login para acessar a sua conta</p>
+          </div>
+
+          <form action="" method="get">
+
+            <div class="campo">
+              <label for="usuario">Usuário</label>
+              <input
+                type="text"
+                name="usuario"
+                id="usuario"
+                placeholder="Usuário"
+                required
+              />
+            </div>
+
+            <div class="campo">
+              <label for="senha">Senha</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Senha"
+                required
+              />
+            </div>
+
+            <div class="lembrar-esqueci-senha">
+              <div>
+                <input
+                  type="checkbox"
+                  name="lembrar-senha"
+                  id="lembrar-senha"
+                />
+                <label for="lembrar-senha">Lembrar senha</label>
+              </div>
+              <button class="esqueci-senha">
+                <a href="#">Esqueci a senha</a>
+              </button>
+            </div>
+
+            <div class="btn">
+              <button class="btn-entrar">Entrar</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="btn-inscreva-se">
+          <button class="inscreva-se">
+            Não tem uma conta?
+            <a href="#">Inscreva-se</a>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
