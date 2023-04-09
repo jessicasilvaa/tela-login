@@ -142,6 +142,7 @@ img {
 
     .imagem {
         width: 100%;
+        background-image: linear-gradient(to top, #90ebff, #90ebff10);
     }
 
     .cadastro {
